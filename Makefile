@@ -15,10 +15,10 @@ install: $(FILES) $(COMPLETION_FILE)
 	@echo "Installation complete!"
 
 
-clean:
-	@echo "Cleaning up installed files..."
+uninstall:
+	@echo "Uninstalling venv-manager..."
 	@rm -f $(PROFILE_DIR)/venv.bash $(COMPLETION_DIR)/venv-completion.sh
-	@echo "Clean up complete!"
+	@echo "Uninstall complete!"
 
 
 # Default target
