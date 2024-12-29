@@ -1,5 +1,7 @@
 # venv-manager
 venv manager is a Python virtual environment manager written in Bash
+![Language](https://img.shields.io/badge/language-bash-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 ## Requirements
 - Bash
